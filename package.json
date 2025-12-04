@@ -1,0 +1,21 @@
+{
+  "name": "ticketing-system",
+  "version": "1.0.0",
+  "description": "Ticketing system for educational purposes.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=prod node server.js",
+    "dev": "cross-env NODE_ENV=dev node --watch server.js"
+  },
+  "author": "Andrei Catalin Drahici Mihalache",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "morgan": "^1.10.1"
+  }
+}
