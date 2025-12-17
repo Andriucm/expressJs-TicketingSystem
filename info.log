@@ -1,0 +1,48 @@
+{
+  metadata: TypeError: Cannot read properties of undefined (reading 'replace')
+      at auth (file:///C:/code/ConquerBlocks/nodeJs/expressJs-TicketingSystem/middlewares/auth.js:4:40)
+      at Layer.handleRequest (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\layer.js:152:17)
+      at next (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\route.js:157:13)
+      at Route.dispatch (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\route.js:117:3)
+      at handle (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:435:11)
+      at Layer.handleRequest (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\layer.js:152:17)
+      at C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:295:15
+      at processParams (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:582:12)
+      at next (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:291:5)
+      at Function.handle (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:186:3),
+  level: 'error',
+  message: "Cannot read properties of undefined (reading 'replace')",
+  timestamp: '2025-12-17T22:07:02.905Z'
+}
+{
+  metadata: TypeError: Cannot read properties of undefined (reading 'replace')
+      at auth (file:///C:/code/ConquerBlocks/nodeJs/expressJs-TicketingSystem/middlewares/auth.js:4:40)
+      at Layer.handleRequest (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\layer.js:152:17)
+      at next (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\route.js:157:13)
+      at Route.dispatch (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\route.js:117:3)
+      at handle (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:435:11)
+      at Layer.handleRequest (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\layer.js:152:17)
+      at C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:295:15
+      at processParams (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:582:12)
+      at next (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:291:5)
+      at Function.handle (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:186:3),
+  level: 'error',
+  message: "Cannot read properties of undefined (reading 'replace')",
+  timestamp: '2025-12-17T22:07:45.929Z'
+}
+{
+  metadata: TypeError: Cannot read properties of undefined (reading 'replace')
+      at auth (file:///C:/code/ConquerBlocks/nodeJs/expressJs-TicketingSystem/middlewares/auth.js:4:40)
+      at Layer.handleRequest (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\layer.js:152:17)
+      at next (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\route.js:157:13)
+      at Route.dispatch (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\route.js:117:3)
+      at handle (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:435:11)
+      at Layer.handleRequest (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\lib\layer.js:152:17)
+      at C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:295:15
+      at processParams (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:582:12)
+      at next (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:291:5)
+      at Function.handle (C:\code\ConquerBlocks\nodeJs\expressJs-TicketingSystem\node_modules\router\index.js:186:3),
+  level: 'error',
+  message: "Cannot read properties of undefined (reading 'replace')",
+  timestamp: '2025-12-17T22:08:25.704Z'
+}

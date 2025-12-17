@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/tickets HTTP/1.1
+Content-Type: application/json
+#Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI5ODUyMWRiOC01YzEzLTQ4YWEtYmQyZC1jMGYyMmMzZWVhYWEiLCJyb2xlIjoidXNlciIsImlhdCI6MTc2NjAwNjI3MiwiZXhwIjoxNzY2MDA5ODcyfQ.ZdxsMNwfA3bF1jzxXAZBRP1MsnoGLN4cQR-mSrgSmB4
+
+{
+    "assignedTo": "98521db8-5c13-48aa-bd2d-c0f22c3eeaaa",
+    "title": "Sample Ticket Title 15",
+    "description": "This is a sample ticket description."
+}

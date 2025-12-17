@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "admin@email.com",
+    "password": "AdminPass123!"
+}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTM5YjhhZmI4NWZjNWQ0MGRmY2Q1NmYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjUzOTA1MTEsImV4cCI6MTc2NTM5NDExMX0.gvDuRb2i6sYd1Du9dMG-jGh1Eq9xGsWu8pZYCbW0_1Q
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTM5YjhhZmI4NWZjNWQ0MGRmY2Q1NmYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjUzOTA1MjEsImV4cCI6MTc2NTM5NDEyMX0.hLA5WgJuYUFI62MP2s6sKs5hCaj2VmRr99O_WTfLjmM

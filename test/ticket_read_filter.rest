@@ -1,0 +1,1 @@
+GET http://localhost:8080/api/tickets?page=1&pageSize=30&status=closed&priority=high HTTP/1.1
