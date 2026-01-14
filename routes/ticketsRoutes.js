@@ -5,6 +5,7 @@ import auth from "../middlewares/auth.js";
 import admin from "../middlewares/admin.js";
 import buildFilter from "../middlewares/filter.js";
 import paginate from "../middlewares/paginate.js";
+import ticketSchema from "../validations/ticketValidation.js";
 
 const router = express.Router();
 //GET all tickets
@@ -16,6 +17,10 @@ router.get("/", buildFilter, paginate(Ticket), async (req, res) => {
 });
 //POST /api/tickets
 router.post("/", auth, async (req, res) => {
+	const { error } = ticketSchema.validate(req.body);
+	if (error) {
+		return res.status(400).send({ message: error.details[0].message });
+	}
 	const ticket = new Ticket({
 		title: req.body.title,
 		description: req.body.description,
